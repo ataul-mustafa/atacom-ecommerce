@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.wrapper{
+    position: relative;
+    top: 60px;
+    z-index: 1;
+    margin: 0 auto;
+}
+
+.homeHeading{
+    width: fit-content;
+    margin: 5vmax auto 3vmax auto;
+    font: 800 3vmax "Roboto";   
+    border-bottom: 3px solid rgb(11, 138, 68);
+    padding: 0 5vmax 1vmax 5vmax;
+    color: rgb(95, 69, 69);
+    text-transform: uppercase;
+}
+
+.container{
+    margin: 2vmax auto;
+    width: 82vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 775px) {
+    .wrapper{
+        width: 100vw;
+        position: absolute;
+        top: 60px;
+    }
+    .banner{
+        height: 25vh;
+        margin: 1vmax 0.5vmax;
+    }
+    
+    .container{
+        margin: 2vmax 0;
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+

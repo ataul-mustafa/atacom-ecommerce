@@ -1,0 +1,105 @@
+/* --------------------Styling Section banner3---------------------- */
+    
+#newsletter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0f0627;
+    height: 25vh;
+    width: 100%;
+    padding: 70px 10%;
+}
+
+#newsletter .newstext h4 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+#newsletter .newstext p {
+    color: #625da7;
+    font-weight: 600;
+}
+
+#newsletter .newstext p span {
+    color: #bccf0a;
+}
+
+#newsletter .form input {
+    padding: 10px;
+    width: 25vw;
+    font-weight: 500;
+    border-radius: 4px;
+    border-color: transparent;
+}
+
+#newsletter .form button {
+    padding: 10px;
+    font-weight: 500;
+    border-radius: 4px;
+    background-color: #088178;
+    color: #fff;
+    outline: none;
+    border-color: transparent;
+    transition: 0.2s ease;
+}
+
+#newsletter .form {
+    display: flex;
+}
+
+#newsletter .form button:hover {
+    background-color: #f12929;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 600px) {
+    #newsletter {
+        flex-direction: column;
+        height: 25vh;
+        width: 100%;
+        padding: 20px;
+    }
+
+    #newsletter .newstext h4 {
+        text-align: center;
+    }
+    
+    #newsletter .newstext p {
+        text-align: center;
+    }
+    
+    #newsletter .newstext p span {
+        color: #bccf0a;
+    }
+    
+    #newsletter .form input {
+        padding: 10px;
+        width: 65vw;
+        font-weight: 500;
+        border-radius: 4px;
+        border-color: transparent;
+    }
+    
+    #newsletter .form button {
+        padding: 10px;
+        font-weight: 500;
+        border-radius: 4px;
+        background-color: #088178;
+        color: #fff;
+        outline: none;
+        border-color: transparent;
+        transition: 0.2s ease;
+    }
+    
+    #newsletter .form {
+        display: flex;
+        margin-top: 15px;
+    }
+    
+    #newsletter .form button:hover {
+        background-color: #f12929;
+        cursor: pointer;
+    }
+    
+}

@@ -1,0 +1,38 @@
+/* --------------------Styling Section banner---------------------- */
+    
+#banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(../../../images/adBanners/b2.jpg);
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner h4 {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+#banner h2 {
+    color: white;
+    font-size: 30px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+#banner h2 span {
+    color: red;
+}
+
+#banner button{
+    padding: 10px;
+}
+
+#banner button:hover {
+    background-color: #088178;
+}
