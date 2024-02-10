@@ -25,15 +25,7 @@ const UserOptions = ({ user }) => {
         {icon: <ExitToAppIcon />, name: "Logout", func: logOut},
     ];
 
-    if (user.role === "admin") {
-        options.unshift({
-            icon: <DashboardIcon />,
-            name: "Dashboard",
-            func: adminDashboard,
-        });
-    }
-
-    if (user.role === "vendor") {
+    if (user.role === "admin" || user.role === 'vendor') {
         options.unshift({
             icon: <DashboardIcon />,
             name: "Dashboard",
