@@ -1,4 +1,4 @@
-**************** ataCom - E-Commerce Shopping Website (Assignment Totality Corp) ****************
+**************** ataCom - E-Commerce Shopping Website ****************
 
 ****** Table of Contents ******
 Overview
@@ -9,11 +9,7 @@ User Experience
 Tech Stack
 Frontend
 Backend
-Installation
-Usage
-Contributing
-License
-Overview
+
 ataCom is a feature-rich e-commerce shopping website developed using the MERN (MongoDB, Express.js, React, Node.js) stack. It provides an exceptional online shopping experience, featuring advanced functionalities and a user-friendly interface. Key features include product listing, category-based filtering, dynamic advertising, an advanced shopping cart, seamless checkout, user authentication, and vendor product management.
 
 ****** Approach ******
